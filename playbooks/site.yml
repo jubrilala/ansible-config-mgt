@@ -1,3 +1,4 @@
 ---
-- hosts: all
+- name: import common-del file
+  become: true
   import_playbook: ../static-assignments/common-del.yml
