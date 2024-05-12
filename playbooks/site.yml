@@ -1,4 +1,9 @@
 ---
 - name: import common-del file
   become: true
-  import_playbook: ../static-assignments/common-del.yml
+  import_playbook: ../static-assignments/common.yml
+
+- name: uat-webservers assignments
+  import_playbook: ../static-assignments/uat-webservers.yml
+
+
