@@ -3,7 +3,7 @@
   become: true
   import_playbook: ../static-assignments/common.yml
 
-- name: uat-webservers assignments
-  import_playbook: ../static-assignments/uat-webservers.yml
+# - name: uat-webservers
+#   import_playbook: ../static-assignments/uat-webservers.yml
 
 
